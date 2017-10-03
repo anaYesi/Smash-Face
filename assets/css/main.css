@@ -1,0 +1,72 @@
+*{
+	/*background: red;*/
+}
+body{
+	background-image: url("https://st.depositphotos.com/3032657/3975/v/950/depositphotos_39759789-stock-illustration-vector-set-of-scrolls-and.jpg");
+}
+.brand-logo{
+	margin-left: 10px;
+	font-family: 'Rokkitt', serif;
+}
+h3{
+	font-weight: bold;
+}
+.mision{
+	margin-top: 2%;
+	background-image: url(../image/mision.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+}
+.fondo{
+	width: 100%;
+	height: 150vh;
+	background-image: url(../image/as.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+.datos, .puntos{
+	margin-top: 30%;
+	font-weight: bold;
+	font-family: 'Rokkitt', serif;
+	font-size: 2vw;
+}
+.browser-default{
+	width: 30%;
+	font-size: 1.3vw;
+	background:#ccc;
+	border:transparent; 
+}
+select.browser-default{
+	display: inline;
+	font-family: 'Roboto', sans-serif;
+	height: 5vh;
+}
+.imagen, .palabra{
+	margin-top: 2%;
+	height: 300px;
+}
+.imagen{
+	background-image: url(../image/img-1.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+.palabra{
+	background-color: #333;
+}
+.palabra h6{
+	margin-top: 50px;
+	text-align: left;
+	font-family: 'Rokkitt', serif;
+	color: white;
+	font-size: 25px;
+}
+button{
+	background: #f9a91a;
+	border:transparent;
+	color: white;
+}
+button:hover{
+	background:#f9a95a;
+}

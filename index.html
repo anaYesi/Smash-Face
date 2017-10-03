@@ -3,51 +3,76 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-	<title>¿Quien soy?</title>
-	<link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico">
-	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css"> -->
-	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Rokkitt" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="assets/main/main.css">
+	<title>descubre</title>
+		<link rel="shortcut icon" type="image/x-icon" href="assets/image/favicon.ico">
+	<!--css de materialize-->
+    <link type="text/css" rel="stylesheet" href="assets/css/materialize.min.css"  media="screen,projection"/>
+     <!--JQuery del materialize-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <!--link de iconos de materialize-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Rokkitt" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
 </head>
 <body>
 <header>
-	<h1>Smash Face</h1>
+	    <div class="navbar-fixed">
+		    <nav>
+		      <div class="nav-wrapper">
+			      <a href="#!" class="brand-logo">Smash Face</a>
+			      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+			      <ul class="right hide-on-med-and-down">
+			        <li><a href="mobile.html"><i class="material-icons left">search</i>mas juegos</a></li>
+			      </ul>
+			      <ul class="side-nav" id="mobile-demo">
+			        <li><a href="mobile.html">mas juegos</a></li>
+			      </ul>
+			    </div>
+		    </nav>
+		</div>
 </header>
-<section class="intrucciones">
-	<p>Bienvenidas al juego de Smash Face, tu mision es poder identificar a todas tus compañeras de clace ingresando para ellos tu nombre. Tienes 5 oportunidades antes de perder 1 punto y pasar a la siguiente.</p>
-</section>
+<section>
+	<div class="container">
+        <div class="row" align="center">
+	      <div class="col s12">
+	      	<h3>Bienvenidas al juego de Smash Face</h3>
+	      </div>
+	      <div class="col s4"></div>
+	      <div class="col s4 mision">
+	      	<h5>MISION</h5>
+	      	<p>Tu mision es poder identificar a todas tus compañeras de clace ingresando para ellos tu nombre. Tienes 5 oportunidades antes de perder 1 punto y pasar a la siguiente.</p> 
+	      </div>
+	      <div class="col s4"></div>
 
-<section class="sedes"> 
-	<div class="elige-sede">
-		Elige tu sede:
-		<select name="sedes-laboratoria">
-		   <option value="1">Lima</option> 
-		   <option value="2">Arequipa</option> 
-		   <option value="3">Mexico</option>
-		   <option value="10">Chile</option> 
-		</select>
-	</div> 
-	<div class="puntos">Puntos:</div>
-</section>
+	      <div class="col s12  fondo">
+	      	<div class="col s6  datos">
+	      		Elige tu sede:
+	      		<select name="sedes-laboratoria" class="browser-default">
+				   <option value="1">Lima</option> 
+				   <option value="2">Arequipa</option> 
+				   <option value="3">Mexico</option>
+				   <option value="10">Chile</option> 
+				</select>
 
-<section class="fotos">
-	<div class="caja">
-		<div class="imagen">
-			<img src="assets/images/img-1.jpg">
-		</div>
-
-		<div class="datos">
-			<center>
-				<h3>Ingrese su nombre:</h3>
-				<input type="text" name="input" placeholder="Nombre">
-				<button>COMPROBAR</button>
-			</center>
-		</div>
-	</div>
+	      	</div>
+      	  	<div class="col s6 puntos">Puntos:</div>
+      	  	<div class="col s12 imagen-palabra">
+	      	  	<div class="col s5 offset-s1 imagen">
+	      	  		<!-- image -->
+	      	  	</div>
+	      	  	<div class="col s5 palabra">
+	      	  		<h6>Ingrese su nombre:</h6>
+	      	  		<input type="text" name="input" placeholder="Nombre">
+	      	  		<button>COMPROBAR</button>
+	      	  	</div>
+	      	</div> 	
+	      </div>
+    	</div>
+      </div>
 </section>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+<script type="text/javascript" src="assets/js/main.js"></script>
+<script type="text/javascript" src="assets/js/materialize.min.js"></script>
 </body>
 </html>

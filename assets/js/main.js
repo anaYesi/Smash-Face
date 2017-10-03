@@ -1,5 +1,2 @@
-$(document).ready(function(){
-    $("img").click(function(){
-        $(this).hide();
-    });
-});
+// alert("holaa");
+ // $(".button-collapse").sideNav();
